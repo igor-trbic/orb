@@ -1,4 +1,6 @@
-# [orb](http://orbjs.net/)[<img align="right" src="https://nodei.co/npm/orb.png?compact=true"/>](https://www.npmjs.com/package/orb)
+# [orb](http://orbjs.net/)[<img align="right" src="https://nodei.co/npm/orb.png?compact=true"/>](https://www.npmjs.com/package/orb-fix-for-data-switch)
+This is forked version with fix for mergefieldconfigs() issue where data in table would be messed up by moving column selectors
+
 Pivot grid javascript library.
 
 **Website:** *[orbjs.net](http://orbjs.net/)*
@@ -26,10 +28,10 @@ Pivot grid javascript library.
 
 #### Customization
 - Via code and/or toolbar
-- Data headers location 
+- Data headers location
 - Grand totals visibility
-- Sub totals visibility &amp; collapsed state 
-- Data cells aggregate &amp; format functions 
+- Sub totals visibility &amp; collapsed state
+- Data cells aggregate &amp; format functions
 - Theming: built-in & Bootstrap
 
 #### Data query
@@ -49,7 +51,7 @@ var q = pgrid.query()
 ```javascript
 q.Amount()
 
-=> 1185.17 
+=> 1185.17
 ```
 
 **List of fields**
@@ -62,7 +64,7 @@ q.val('Amount', 'Q')
    }
 ```
 
-       
+
 **Aggregation func**
 
 **builtin**
