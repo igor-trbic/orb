@@ -1,4 +1,4 @@
-# [orb](http://orbjs.net/)[<img align="right" src="https://nodei.co/npm/orb.png?compact=true"/>](https://www.npmjs.com/package/orb-fix-for-data-switch)
+# [orb](http://orbjs.net/)[<img align="right" src="https://nodei.co/npm/orb-fix-for-data-switch.png?compact=true"/>](https://www.npmjs.com/package/orb-fix-for-data-switch)
 This is forked version with fix for mergefieldconfigs() issue where data in table would be messed up by moving column selectors
 
 Pivot grid javascript library.
